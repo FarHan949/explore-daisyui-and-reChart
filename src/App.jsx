@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import LineChart from './components/LineChart/LineChart'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,6 +11,7 @@ function App() {
     <>
      <Header></Header>
      <LineChart></LineChart>
+     
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { LineChart as LChart, Line, XAxis, YAxis } from 'recharts';
+import Phones from '../Phones/Phones';
 
 const LineChart = () => {
       
@@ -20,6 +21,8 @@ const LineChart = () => {
             <XAxis dataKey="net_profit"/>
                 <Line dataKey={'net_profit'} stroke="#8884d8"></Line>
             </LChart>
+
+            <Phones></Phones>
         </div>
     );
 };
